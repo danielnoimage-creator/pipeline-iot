@@ -1,0 +1,28 @@
+# Ambiente virtual Python
+
+.venv/
+venv/
+**pycache**/
+*.py[cod]
+
+# Variáveis de ambiente e credenciais
+
+.env
+.env.*
+
+# Arquivos temporários
+
+*.log
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Dados e arquivos grandes
+
+# O CSV original será mantido localmente
+
+data/IOT-temp.csv
+data/archive.zip
+
+# Configurações locais
+
+.vscode/
